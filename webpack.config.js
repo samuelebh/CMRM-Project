@@ -29,14 +29,14 @@ module.exports = {
   },
   
   devServer: {
-      contentBase: './src',
+      contentBase: './dist',
   },
   resolve: {
     extensions: [ '.tsx', '.ts', '.js' ],
   },
   output: {
-    filename: 'app.js',
-    path: path.resolve(__dirname, 'src'),
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HtmlWebpackPlugin({ 
