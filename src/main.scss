@@ -1,4 +1,62 @@
+#container {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/prova1-ad8ce.appspot.com/o/sfondo.jpg?alt=media&token=98223c09-cd67-4f55-913b-76c3b3fe496f");
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 800px;
+  height: 550px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
 
+.obstacle {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/prova1-ad8ce.appspot.com/o/nota.jpg?alt=media&token=0007c920-1341-48f2-84c7-fbd962dab784");
+  background-color: blue;
+  background-size: 98%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid red;
+  border-radius: 50%;
+  position: relative;
+  top:50px;
+  margin: 4px;
+}
+
+.obstaclep {
+  border: 3px solid black;
+}
+
+.hide {
+  background: black;
+}
+
+.character{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/prova1-ad8ce.appspot.com/o/kisspng-greg-heffley-diary-of-a-wimpy-kid-hard-luck-the-w-diary-of-a-wimpy-kid-hard-luck-5b44ad27ddc420.2448109915312274319084.png?alt=media&token=f9908bce-b37f-4b6e-91d2-67a3232f1ba5");
+  background-size: 100%;
+  width: 50px;
+  height: 90px;
+  position: absolute;
+  left:700px;
+}
 h1 {
-    color: brown;
+  color: darkviolet;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#livello {
+  position: absolute;
+  left: 10px;
+}
+
+.tempo {
+  display: inline-block;
+  width: 30px;
+  height: 8px;
+  background: red;
+}
+.metro {
+ background: green; 
 }
