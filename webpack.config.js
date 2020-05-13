@@ -30,12 +30,6 @@ module.exports = {
   
   devServer: {
       contentBase: './dist',
-      proxy: {
-        '/api': {
-          target: 'https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js',
-          secure: false
-        }
-      }
   },
   resolve: {
     extensions: [ '.tsx', '.ts', '.js' ],
